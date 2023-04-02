@@ -16,7 +16,7 @@ const VideoPlayer = ({ videoId }) => {
         controls
         autoPlay
       >
-        <source src={`http://localhost:5000/videos/${videoId}`} type="video/mp4" />
+        <source src={`https://stream-video-hokn.onrender.com/videos/${videoId}`} type="video/mp4" />
         Your browser does not support the video tag 
       </video>
   )
